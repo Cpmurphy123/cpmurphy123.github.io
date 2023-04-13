@@ -1,0 +1,107 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    flex: 1;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#Home {
+    text-align: left;
+}
+
+#contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 175;
+    float: left;
+    margin-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutmepic {
+    width:250px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.text-container {
+    text-align: justify;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-input {
+    background-color: blanchedalmond;
+    color: #333;
+    border-color: blue;
+}
